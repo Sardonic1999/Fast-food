@@ -1,0 +1,136 @@
+body{
+    background: fixed;
+    background-size: cover;
+    background-image: url(https://kartinkin.com/uploads/posts/2021-03/thumbs/1617151157_18-p-fast-fud-krasivo-20.jpg);
+}
+
+.container{
+    display: flex;
+    
+}
+
+.menu{
+      
+    flex: 5;
+    /* border: 1px solid blue; */
+    margin: 10px;  
+
+    
+ 
+}
+
+.submenu-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.submenu{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px black;
+    color: #fff;
+    background-color: transparent;
+   
+    
+}
+
+.submenu:hover{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px black;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 5px #d0f403,
+                    0 0 15px #b4f403,
+                    0 0 25px #c8f403,
+                    0 0 50px #c8f403;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    
+}
+
+    
+
+.order{
+    flex: 2;
+    /* border: 1px solid rgb(255, 0, 149); */
+    margin: 10px;
+    color: #fff;
+    height: 50%;
+    
+    
+}
+
+.pizza{
+    width: 100%;
+    height: 70%;
+    
+}
+
+.title{
+    font-size: 50px;
+    color: #fff;  
+}
+
+.title-total{
+    font-size: 50px;
+    color: #fff;  
+    border-bottom: 4px solid #d0f403 ;
+    box-shadow: 0 0 ,
+                    
+                    0 0 200px #c8f403;
+                   
+                    
+                    
+    
+}
+
+.delete{
+    
+        background: #d0f403;
+        color: #050801;
+        box-shadow: 0 0 5px #d0f403,
+                    0 0 25px #b4f403,
+                    0 0 50px #c8f403,
+                    0 0 200px #c8f403;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+         font-size: 20px;
+         
+        
+}
+.refresh{
+    background: #d0f403;
+        color: #050801;
+        box-shadow: 0 0 5px #d0f403,
+                    0 0 25px #b4f403,
+                    /* 0 0 50px #c8f403, */
+                    0 0 200px #c8f403;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+         font-size: 20px;
+         border-radius: 50px 50px;
+}
+.name{
+    margin-bottom: 0;
+    margin-top: 5px;
+    
+}
+
+.price{
+    margin-top: 5px;
+    
+}
+
+.price:hover{
+    margin-top: 5px;
+    background: #d0f403;
+        color: #050801;
+        box-shadow: 0 0 5px #d0f403,
+                    0 0 5px #b4f403,
+                    0 0 15px #c8f403,
+                    0 0 25px #c8f403;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
